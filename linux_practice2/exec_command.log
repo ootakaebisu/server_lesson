@@ -1,0 +1,211 @@
+    1  docker stop centos7
+    2  docker start centos7
+    3  docker stop centos7
+    4  exit
+    5  exot
+    6  exit
+    7  ls
+    8  ls /
+    9  ls /usr
+   10  pwd
+   11  cd /root
+   12  pwd
+   13  cd usr
+   14  cd /usr
+   15  pwd
+   16  cd /home
+   17  mkdir test1
+   18  ls
+   19  cd /home
+   20  mkdir test2/test3
+   21  cd /home
+   22  mkdir -p test2/test3
+   23  ls test2
+   24  ls
+   25  cd /home
+   26  touch test1/index.php
+   27  ls test1
+   28  cd /home/test1 && ls
+   29  cd /home/test1
+   30  cp index.php copy.php
+   31  ls
+   32  cd /home
+   33  cp -r test1 test4
+   34  ls
+   35  ls test4
+   36  cd /home
+   37  mv test2/test3 test3
+   38  ls
+   39  cd /home
+   40  mv test4 test1_copy
+   41  ls
+   42  cd /home
+   43  ls test1
+   44  rm test1/copy.php
+   45  ls test1
+   46  cd /home
+   47  rm -r test3
+   48  ls
+   49  cd /home
+   50  rm test1_copy/*.php
+   51  rm test1_copy/*.php
+   52  ls test1copy
+   53  ls test1_copy
+   54  ls
+   55  ls test1
+   56  ls test1_copy
+   57  ls test2
+   58  cd /home
+   59  echo '# Hello World' > README.md
+   60  cat README.md
+   61  echo '# Server Lesson' > README.md
+   62  cat README.md
+   63  ls
+   64  cd /home
+   65  echo 'Linux Practice' >> README.md
+   66  echo '-----------------' >> README.md
+   67  cat README.md
+   68  vi
+   69  cd /home
+   70  vi README.md
+   71  vi README.md
+   72  cd /root
+   73  pwf
+   74  mkdir server_lesson && cd server_lesson
+   75  yum update -y && yum -y install git
+   76  git version
+   77  git init
+   78  ls
+   79  ls -a
+   80  touch first.txt
+   81  ls
+   82  mkdir -p linux_practice1/public
+   83  ls
+   84  ls linux_practice1/
+   85  cd linux_practice1/
+   86  cd
+   87  cd server_lesson/
+   88  ls
+   89  cd linux_practice1/
+   90  cd public/
+   91  cd ../
+   92  ls
+   93  ls ../
+   94  cd ../
+   95  touch public/index.php
+   96  touch linux_practice1/public/index.php
+   97  cd public
+   98  cd /public
+   99  ls
+  100  cd linux_practice1/public/
+  101  ls
+  102  cp index.php index_bk.php
+  103  ls
+  104  cd ../
+  105  ls
+  106  cp -r public tmp
+  107  ls
+  108  ls public/
+  109  ls tmp/
+  110  rm tmp/index_bk.php 
+  111  ls tmp/
+  112  cd ../
+  113  mkdir README.md
+  114  ls
+  115  vi README.md/
+  116  rm README.md/
+  117  ls
+  118  ls README.md/
+  119  rm README.md
+  120  rmdir README.md/
+  121  ls
+  122  touch README.md
+  123  ls
+  124  vi README.md 
+  125  vi README.md 
+  126  mkdir -p linux_practice2/documents
+  127  ls
+  128  ls linux_practice2
+  129  cd linux_practice2
+  130  cd documents/
+  131  touch gizumo{01..50}.md
+  132  ls
+  133  cd ../
+  134  ls
+  135  mkdir trash
+  136  ls
+  137  mv documents/gizumo{20..40}.md trash
+  138  ls
+  139  ls documents/
+  140  ls trash/
+  141  mkdir .gitignore
+  142  ls
+  143  ls -a
+  144  vi .gitignore/
+  145  rmdir .gitignore/
+  146  ls -a
+  147  touch .gitignore
+  148  ls -s
+  149  ls -a
+  150  vi .gitignore 
+  151  ls trash/
+  152  git add *
+  153  git diff
+  154  git 
+  155  git status
+  156  git ls-files --others --exclude-standard
+  157  git ls-files
+  158  ls
+  159  ls -a
+  160  vi .gitignore 
+  161  git ls-files
+  162  git reset HEAD
+  163  git reset HEAD trash
+  164  git rm --cashed trash
+  165  git rm --cached trash
+  166  git rm -r --cached trash
+  167  git add *
+  168  git ls-files
+  169  git rm -r --cached trash
+  170  git ls-files
+  171  ls -a
+  172  vi .gitignore 
+  173  git add -a
+  174  git add *
+  175  git ls-files
+  176  git reset HEAD
+  177  git rm -r cached documents
+  178  git rm -r --cached documents
+  179  git
+  180  git add .
+  181  git 
+  182  git ls-files
+  183  git ls-files --others --exclude-standard
+  184  git rm -r --cached documents
+  185  git rm -r --cached trash
+  186  git ls-files
+  187  git ls-files --other
+  188  git ls-files --ignore
+  189  git rm -r --cached .gitignore
+  190  git ls-files
+  191  ls
+  192  vi .gitignore 
+  193  git add -A
+  194  git ls-files
+  195  git ls-files --others --exclude-standard
+  196  git ls-files --ignore
+  197  git status --ignored
+  198  git status
+  199  ls ../
+  200  cd ../
+  201  git add -A
+  202  git status
+  203  git reset HEAD
+  204  git rm --cashed -r linux_practice2/.gitignore 
+  205  git rm --cached -r linux_practice2/.gitignore 
+  206  vi linux_practice2/.gitignore 
+  207  git add -A
+  208  git status
+  209  history 300
+  210  git history > exec_command.log
+  211  history 300 > exec_command.log
