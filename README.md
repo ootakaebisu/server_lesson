@@ -1,9 +1,11 @@
-- ls
-- pwd
-- cd
-- mkdir
-- touch
-- cp
-- mv
-- rm
-- cat
+- i
+- ESC
+- j
+- k
+- h
+- l
+- :w
+- :wq
+- :q!
+- u
+- Ctrl + r
